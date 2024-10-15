@@ -1,0 +1,18 @@
+.child {
+  background-color: cadetblue;
+  border: 1px solid red;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 100px);
+}
+
+.second {
+  grid-area: 2 / 2 / 4 / 4;
+}
+
+.seven {
+  grid-area: 4 / 1 / 5 / 3;
+}
